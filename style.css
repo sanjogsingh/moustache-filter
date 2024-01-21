@@ -1,0 +1,43 @@
+#heading
+{
+    text-shadow: 3px 3px 5px;
+    color: rgb(56, 233, 177);
+    background-color: brown;
+    margin-top: 0;
+    padding: 2px;
+    font-size: 60px;
+}
+
+canvas
+{
+    border: 5px dashed crimson ;
+   margin-top: 60px;
+   animation-name: animation1;
+   animation-iteration-count: infinite;
+   animation-duration: 4s;
+}
+
+.btn-danger:hover{
+    background-color: rgb(255, 179, 87);
+}
+
+@keyframes animation1
+{
+   10%
+    {
+        box-shadow:10px 10px 11px purple ;
+    }
+30%
+    {
+        box-shadow:10px 10px 11px teal
+    }
+    70%
+    {
+        box-shadow: 10px 10px 11px plum;
+    }
+    90%
+    {
+        box-shadow: 10px 10px 11px fuchsia;
+    }
+    
+}
